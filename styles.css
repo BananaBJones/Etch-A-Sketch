@@ -1,0 +1,53 @@
+html {
+    background-color: lightgray;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rainbow-text {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+.controlPanel {
+    display: flex;
+
+}
+
+.colorWheel {
+    
+}
+
+#grid {
+    display: flex;
+    flex-wrap: wrap;
+    /* align-content: center; */
+    /* align-items: baseline; */
+    /* justify-content: space-between; */
+    background-color: white;
+    box-shadow: 5px 0px 15px 5px #000000;
+    height: 504px;
+    width: 504px;
+}
+
+.gridBox {
+    background-color: gray;
+    /* border: dotted white 1px; */
+    flex: 1 1 40px;
+    height: 504 / 16;
+    /* min-width: 16.27%;
+    max-width: 16.27%; */
+    /* min-height: 16.27%;
+    max-height: 16.27%; */
+}
+
+footer {
+    margin-top: auto;
+}
