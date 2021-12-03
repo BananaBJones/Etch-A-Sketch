@@ -1,1 +1,0 @@
-gridContainer = document.querySelector('#grid');
